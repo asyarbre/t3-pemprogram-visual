@@ -7,10 +7,15 @@
     <title>Daftar | Tokopedia</title>
     <link rel="stylesheet" href="dist/style.css" />
     <link rel="icon" type="image/x-icon" href="src/img/logo.png" />
+    <link rel="stylesheet" href="dist/aos/aos.css" />
   </head>
   <body>
     <div class="w-full flex flex-wrap h-screen">
-      <div class="w-full md:w-1/2 flex flex-col mx-auto my-auto">
+      <div 
+        class="w-full md:w-1/2 flex flex-col mx-auto my-auto"
+        data-aos="fade-down"
+        data-aos-duration="2000"
+      >
         <a
           href="index.html"
           class="text-3xl font-bold text-green-500 my-10 mx-auto hover:text-green-700"
@@ -65,5 +70,10 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
+    <script src="dist/aos/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
