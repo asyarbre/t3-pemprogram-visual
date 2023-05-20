@@ -7,6 +7,7 @@
     <title>About | Tokopedia</title>
     <link rel="stylesheet" href="dist/style.css" />
     <link rel="icon" type="image/x-icon" href="src/img/logo.png" />
+    <link rel="stylesheet" href="dist/aos/aos.css" />
   </head>
   <body>
     <header>
@@ -188,6 +189,8 @@
     <section class="bg-gray-50 py-20">
       <div
         class="container mx-auto max-w-xl px-6 md:flex md:max-w-2xl lg:max-w-4xl lg:px-0 xl:max-w-6xl"
+        data-aos="fade-right"
+        data-aos-duration="2000"
       >
         <img
           src="src/img/about-1.jpg"
@@ -219,6 +222,8 @@
     <section class="bg-gray-100 py-20">
       <div
         class="container mx-auto max-w-xl px-6 md:flex md:max-w-2xl lg:max-w-4xl lg:px-0 xl:max-w-6xl"
+        data-aos="fade-left"
+        data-aos-duration="2000"
       >
         <div class="mt-5 md:self-center">
           <hr class="bg-primary h-1 w-16" />
@@ -246,6 +251,8 @@
     <section class="bg-gray-50 py-20">
       <div
         class="container mx-auto max-w-xl px-6 md:flex md:max-w-2xl lg:max-w-4xl lg:px-0 xl:max-w-6xl"
+        data-aos="fade-right"
+        data-aos-duration="2000"
       >
         <img
           src="src/img/about-3.jpg"
@@ -280,6 +287,8 @@
     <section class="bg-gray-50 py-20">
       <div
         class="container mx-auto max-w-xl px-6 md:flex md:max-w-2xl lg:max-w-4xl lg:px-0 xl:max-w-6xl"
+        data-aos="fade-left"
+        data-aos-duration="2000"
       >
         <div class="mt-5 lg:self-center">
           <hr class="bg-primary h-1 w-16" />
@@ -421,5 +430,9 @@
       </div>
     </footer>
     <script src="script.js"></script>
+    <script src="dist/aos/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
